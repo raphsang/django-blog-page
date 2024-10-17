@@ -1,0 +1,59 @@
+/* custom_admin.css */
+body {
+    background-color: #000000;
+}
+
+.module {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.app-model .model-table th, .app-model .model-table td {
+    text-align: center;
+}
+/* custom_admin.css */
+
+/* Header styles */
+#header {
+    background-color: #072c55; /* Change to your preferred background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Change the site title */
+#header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Change the logout link */
+#header .logout a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#header .logout a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust the user information box */
+#header .user-tools {
+    color: #fff;
+}
+
+/* Change the link color in the user info box */
+#header .user-tools a {
+    color: #fff;
+}
+
+#header .user-tools a:hover {
+    text-decoration: underline;
+}
+
+/* Add custom logo styles */
+#header .site-name img {
+    max-height: 50px; /* Adjust height as needed */
+    margin-right: 10px;
+}
